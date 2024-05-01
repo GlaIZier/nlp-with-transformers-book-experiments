@@ -1,0 +1,36 @@
+.DS_Store
+
+.project
+.idea
+.settings
+*.iml
+*.iws
+
+*.env
+.venv*
+logs
+*.pyc
+**/__pycache__
+.ipynb_checkpoints
+**/.snakemake
+.python-version
+
+datasource
+data
+*.pt
+*.whl
+corpus
+project.lock
+projects/citations/scripts/deps.py
+output
+
+# test
+.pytest_cache
+
+# python build
+*.egg-info
+/dist
+/build
+
+# models
+.models
